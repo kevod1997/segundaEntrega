@@ -1,0 +1,59 @@
+const productos =
+[
+    {
+        id: 1,
+        nombre: "BODY SPLASH",
+        desc: "Victoria Secret, 250 ml.",
+        precio:  3000,
+        img: '/public/images/bodysplash.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 2,
+        nombre: "HYDRAPORE",
+        desc: "Crema hidratante para piel seborreica Lidherma, 50 ml.",
+        precio: 2500,
+        img: '/public/images/hydrapore.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 3,
+        nombre: "LUMIN EYES",
+        desc: "Contorno de ojos descongestivo Lidherma, 30 ml.",
+        precio: 2560,
+        img: '/public/images/lumineyes.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 4,
+        nombre: "ESMALTE",
+        desc: "Esmalte O.P.I, Infinite Shine Collection, 15 ml. ",
+        precio: 1800,
+        img: '/public/images/opi-infinite-shine.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 5,
+        nombre: "PROTECTOR",
+        desc: "Protector solar SPF 50+ UVA PLUS Lidherma, 100 gr.",
+        precio: 2750,
+        img: '/public/images/protectorsolar.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 6,
+        nombre: "SENSE CONTROL",
+        desc: "Tratamiento para piel sensible Lidherma, 50 gr.",
+        precio: 2500,
+        img: '/public/images/sensecontrol.jpg',
+        cantidad:1
+    }
+]
+
+export { productos };
+
