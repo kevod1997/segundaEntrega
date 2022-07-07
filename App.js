@@ -21,6 +21,13 @@ export const mostrarProductos = (productos) => {
     const boton = document.getElementById(`boton${producto.id}`);
       boton.addEventListener('click', () => {
       carritoIndex(producto.id);
+      swal({
+        title: "Genial",
+        text: "Tu producto ha sido añadido al carrito",
+        icon: "success",
+        confirm: "ok",
+        timer: 2000
+    })
     });
   });
 };

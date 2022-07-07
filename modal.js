@@ -23,6 +23,11 @@ modalCarrito.addEventListener('click', (e) => {
     // Si el elemento tiene la clase "boton-eliminar" invoco a la funcion que elimina un producto
     if (e.target.classList.contains("boton-eliminar")) {
         eliminarProductoCarrito(e.target.value);
+        swal({
+            title: "Tu producto ha sido eliminado del carrito",
+            icon: "warning",
+            timer:1500
+        })
     }
     e.stopPropagation();
 });
