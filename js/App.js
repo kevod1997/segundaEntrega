@@ -1,7 +1,9 @@
 import { carritoIndex } from "./carritoIndex.js";
+import { getData } from "./getData.js";
 
-export const mostrarProductos = (productos) => {
+export const mostrarProductos = async () => {
   const contenedorProductos = document.getElementById("producto-contenedor");
+  const productos = await getData();
 
   productos.forEach(producto => {
     const div = document.createElement('div');
@@ -26,7 +28,7 @@ export const mostrarProductos = (productos) => {
         text: "Tu producto ha sido añadido al carrito",
         icon: "success",
         confirm: "ok",
-        timer: 2000
+        timer: 1000
     })
     });
   });
